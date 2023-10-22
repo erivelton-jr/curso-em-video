@@ -1,0 +1,6 @@
+n = input('digite algo')
+print(f'o tipo primitivo desse valor é {type(n)}')
+print('É o alfabeto?', n.isalpha())
+print('É alfanumérico?)', n.isalpha())
+print('Possui apenas numeros?', n.isnumeric())
+print('está todo en CAPSLOOK?', n.isupper())
